@@ -109,3 +109,84 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+.pic{
+    display: flex;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+.review-star{
+    background-color: #F2EDED;
+    border-radius: 14px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      padding: 20px;
+      max-width: 300px;
+      width: 100%;
+}
+.star{
+    color:#FFB805;
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+.title{
+    font-size: 30px;
+     font-weight: 600;
+      font-size: 16px;
+      margin-bottom: 10px;
+}
+.description{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pic img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.review-name{
+    font-size: 13px;
+    color: #666;
+}
+/* section webflow */
+.section-webflow{
+    text-align: center;
+    border-radius: 10px;
+    padding: 130px 150px;
+    
+}
+.section-webflow h3{
+    font-size: 45px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+}
+.section-webflow .p-text{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #555;
+}
+.button1{
+  background-color: #5856d6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.images-webflow img{
+  width: 840px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
