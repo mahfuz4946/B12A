@@ -190,3 +190,63 @@ nav{
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
+/* section Newslatter */
+.newsletter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 10%;
+  background-color: #fff;
+  gap:2px;
+}
+.left h1{
+    font-size: 60px;
+}
+.right{
+    min-width: none;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  width: 100%;
+}
+.form input ,.form textarea{
+  padding: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: none;
+}
+.form button{
+  background-color: #5856d6;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* footer */
+.footer{
+    text-align: center;
+    padding: 40px 20px;
+}
+.footer h1 {
+  font-size: 60px;
+  color: #3b3bff;
+  margin-bottom: 10px;
+}
+.footer p{
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
