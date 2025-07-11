@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/website.css">
 </head>
-<body>
+<body class="raleway-font">
     <header class="header">
         <nav>
-            <h2 class="logo share-color">LOGO</h2>
+            <h2 class="logo">LOGO</h2>
             <a href=""><button class="sing-up">Sing Up</button></a>
         </nav>
         <div class="banner-head">
@@ -26,24 +29,28 @@
             </div>
             <img src="Assets/wc-mini.png" alt="">
         </section>
-        <section class="productive">
-            <h4>Joined Thousands of Productive Users</h4>
-        <div>
-            <h2>50K</h2>
-            <p>Active Users</p>
+
+    <section class="midlevel inter-font">
+        <h3 class="midlevel-head">Joined Thousands of Productive Users</h3>
+        <div class="midlevel-container">
+            <div class="mid">
+                <h2>50K</h2>
+                <p class="mid-class">Active Users</p>
+            </div>
+            <div class="mid">
+                <h2>2M+</h2>
+                <p class="mid-class">Focus Sessions</p>
+            </div>
+            <div class="mid">
+                <h2>95%</h2>
+                <p class="mid-class">Satisfaction Rate</p>
+            </div>
         </div>
-        <div>
-            <h2>2M+</h2>
-            <p>Flow Sessions</p>
-        </div>
-        <div>
-      <h2>95%</h2>
-      <p>Satisfaction Rate</p>
-    </div>
-        </section>
+    </section>
+        
     </main>
     <section class="review">
-        <h2>What our users say</h2>
+        <h2 class="review-h2">What our users say</h2>
         <div class="review-part">
             <div class="review-star">
             <div class="star">⭐⭐⭐⭐⭐</div>
@@ -92,25 +99,23 @@
 
         </div>
     </section>
-    <section class="newsletter">
-        <div class="left">
-      <h1>Let’s Get in<br>Touch</h1>
+    <section class="container-section">
+    <div class="container">
+    <div class="left">
+      <h1>Let's Get in<br>Touch</h1>
     </div>
     <div class="right">
-      <form class="form">
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="example@gmail.com" required />
-
-        <label for="name">Name</label>
-        <input type="text" id="name" placeholder="full name" required />
-
-        <label for="message">Message</label>
-        <textarea id="message" placeholder="write your message..." rows="4" required></textarea>
-
-        <button type="submit">Get In Touch</button>
-      </form>
+        <label>Email</label>
+      <input type="email" placeholder="example@email.com" />
+      <label >Name</label>
+      <input type="text" placeholder="full name" />
+      <label>Message</label>
+      <textarea rows="5" placeholder="write your message..."></textarea>
+      <button>Get in Touch</button>
     </div>
-    </section>
+  </div>
+  </section>
+    
     <footer class="footer">
     <h1>LOGO</h1>
     <p>Ready to elevate your online presence? Contact us today to discuss<br>your project and discover how we can bring your vision to life.</p>

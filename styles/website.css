@@ -1,4 +1,11 @@
-
+.inter-font {
+  font-family: "Inter", sans-serif;
+  
+}
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  
+}
 /* Nav style */
 nav{
     display: flex;
@@ -7,19 +14,20 @@ nav{
     margin: 0 150px;
 }
 .logo{
-    font-weight: 45px;
+    font-weight: bold;
+    color: #4E47FF;
+    font-size: 35px;
 }
 .sing-up{
     color:#FFFFFF;
     background-color:#4E47FF ;
     border-radius: 5px;
-    box-shadow: none;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
     
 }
 
-
-
-    
 /* banner head */
 .header{
     background-image: url(../Assets/Hero-bg.png);
@@ -44,12 +52,7 @@ nav{
       border-radius: 6px;
       cursor: pointer;
 }
-/* share Style */
-.share-color{
-    color: #4E47FF;
-}
-
-/* main-section-style */
+/* section-action */
 .action{
     display: flex;
     align-items: center;
@@ -69,49 +72,55 @@ nav{
     font-size: 24px;
     color: #252432;
 }
-.lanuch{
+ .lanuch{
     background-color: #4E47FF;
     border-radius: 10px;
     color: white;
     font-size: 16px;
     border: none;
     padding: 12px 36px;
-
-}
-/* section-productive */
-.productive{
+    } 
+/* main midlevel section */
+.midlevel{
+    width: 1140px;
+    margin: 0 auto;
     background-color: #D6DDED;
-    padding: 50px 140px;
-      display: flex;
-      justify-content: space-between;
-      text-align: center;
-      border-radius: 12px;
-      margin: 0 auto;
-      align-items: center;
+    border-radius: 14px;
 }
-.productive h4{
-    font-size: 30px;
-}
-.productive div h2{
-    font-size: 70px;
-    font-weight: bold;
-    color: #3f3fff;
-}
-.productive div p{
-    font-size: 20px;
+.midlevel-head{
+    font-size: 38px;
     color: #252432;
+    font-weight: 700;
+    padding-top: 50px;
+    text-align: center;
+}
+.mid-class{
+    margin-top: -50px;
+}
+.midlevel-container{
+    display: flex;
+    justify-content: space-around;
+}
+.mid h2{
+    color: #4E47FF;
+    font-size: 60px;
 }
 /* section-review */
 .review{
-    text-align: center;
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 .review-part{
     display: flex;
     justify-content: space-around;
 }
+.review-h2{
+    text-align: center;
+}
 .pic{
     display: flex;
-    text-align: center;
+    
     border-radius: 50px;
     
 }
@@ -199,45 +208,74 @@ nav{
   background-color: #fff;
   gap:2px;
 }
-.left h1{
-    font-size: 60px;
+.form-section{
+   margin: 0 auto;
 }
-.right{
-    min-width: none;
+/* form style */
+.container-section{
+    display: flex;
+    justify-items: start;
 }
-.form{
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  max-width: 400px;
-  width: 100%;
-}
-.form input ,.form textarea{
-  padding: 12px;
-  font-size: 14px;
-  font-weight: bold;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  resize: none;
-}
-.form button{
-  background-color: #5856d6;
-  color: #fff;
-  padding: 12px;
-  border: none;
-  border-radius: 6px;
-  font-weight: bold;
-  cursor: pointer;
-}
+.container {
+      display: flex;
+      width: 80%;
+      width: 1140;
+      padding: 40px;
+      border-radius: 10px;
+      align-items: center;
+      margin: 0 50px;
+      justify-content: start;
+    }
+
+    .left {
+      flex: 1;
+      padding-right: 40px;
+      font-size: 50px;
+    }
+
+    .left h1 {
+      font-size: 36px;
+      color: #333;
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .right input,
+    .right textarea {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: none;
+    }
+
+    .right button {
+      padding: 10px;
+      background-color: #4a63f0;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
 /* footer */
 .footer{
     text-align: center;
     padding: 40px 20px;
+
+    
 }
 .footer h1 {
   font-size: 60px;
   color: #3b3bff;
   margin-bottom: 10px;
+  font-size: 80px;
 }
 .footer p{
   color: #555;
